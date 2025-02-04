@@ -13,7 +13,7 @@ class PageController extends Controller
 
     public function executives()
     {
-        return view("welcome");
+        return view("pages.executives");
     }
 
     public function teachers()
