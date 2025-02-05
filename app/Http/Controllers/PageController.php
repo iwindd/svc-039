@@ -18,7 +18,7 @@ class PageController extends Controller
 
     public function teachers()
     {
-        return view("welcome");
+        return view("pages.teachers");
     }
 
     public function students()
