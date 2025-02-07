@@ -8,5 +8,6 @@
     <div class="py-12 grid grid-cols-2 gap-2 max-w-7xl mx-auto sm:px-6 lg:px-8">
         <x-students.chart />
         <x-students.table1 />
+        <x-students.table2 />
     </div>
 </x-app-layout>
