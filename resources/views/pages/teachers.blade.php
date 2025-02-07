@@ -71,24 +71,8 @@
     </x-slot>
 
     <div class="py-12 grid grid-cols-2 gap-2 max-w-7xl mx-auto sm:px-6 lg:px-8">
-        @foreach ($teachers as $executive)
-            <x-teachers.card name="{{ $executive['name'] }}" position="{{ $executive['position'] }}"
-                phone="{{ $executive['phone'] }}" image="{{ $executive['image'] }}" />
-        @endforeach
-
-        <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg p-6 text-gray-900 col-span-2">
-            <header class="border-b pb-1 flex items-center space-x-2">
-                <h2 class="font-bold text-xl">{{ __('teachers.duty') }}</h2>
-                <span class="text-xl">-</span>
-                <p class="text-lg">{{ __('teachers.work') }}</p>
-            </header>
-            <article class="grid grid-cols-3 gap-2 mt-2">
-                <div class="col-span-2 flex items-center px-5">
-                    <ul class="list-decimal">
-                        {!!__('teachers.list')!!}
-                    </ul>
-                </div>
-            </article>
-        </div>
+        <x-teachers.chart />
+        <x-teachers.table1 />
+        <x-teachers.table2 />
     </div>
 </x-app-layout>

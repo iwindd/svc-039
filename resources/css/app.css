@@ -5,3 +5,34 @@
 *{
     font-family: 'Sarabun' !important;
 }
+
+
+.table-custom{
+    @apply w-full text-left table-auto min-w-max;
+}
+
+.table-custom thead th{
+    @apply p-2 border border-primary-100 bg-primary-50 text-center;
+}
+
+.table-custom thead th p{
+    @apply block font-sarabun text-sm antialiased font-normal leading-none text-primary-900 opacity-70;
+}
+
+.table-custom tbody td {
+    @apply p-2 border border-primary-100 text-center;
+}
+
+.table-custom tbody td p{
+    @apply block font-sarabun text-sm antialiased font-normal leading-none;
+}
+
+.table-custom tbody th,
+.table-custom tfoot th{
+    @apply p-2 border border-secondary-100 bg-secondary-200 text-center;
+}
+
+.table-custom tbody th p,
+.table-custom tfoot th p{
+    @apply block font-sarabun text-sm antialiased font-normal leading-none text-primary-900 opacity-70 font-bold;
+}
