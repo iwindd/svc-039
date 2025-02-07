@@ -23,7 +23,7 @@ class PageController extends Controller
 
     public function students()
     {
-        return view("welcome");
+        return view("pages.students");
     }
 
     public function majors()
