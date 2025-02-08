@@ -50,5 +50,16 @@
                 </div>
             </a>
         </div>
+
+        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
+            <div class="bg-white overflow-hidden shadow-sm sm:rounded-lg">
+                <header class="p-4 border-b">
+                    <img src="{{asset("images/home/verse/header.png")}}" alt="verse header">
+                </header>
+                <article class="p-8 flex justify-center">
+                    <img src="{{asset("images/home/verse/description.gif")}}" alt="verse content">
+                </article>
+            </div>
+        </div>
     </div>
 </x-app-layout>
