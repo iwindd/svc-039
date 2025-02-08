@@ -47,7 +47,23 @@ export default {
                 'info': {
                     DEFAULT: colors.sky[500],
                     ...colors.sky
-                }
+                },
+                'surface': {
+                    DEFAULT: colors.white,
+                    ...colors.white
+                },
+                'surface-alt': {
+                    DEFAULT: colors.neutral[50],
+                    ...colors.neutral
+                },
+                'on-surface': {
+                    DEFAULT: colors.neutral[600],
+                    ...colors.neutral
+                },
+                'on-surface-strong': {
+                    DEFAULT: colors.neutral[900],
+                    ...colors.neutral
+                },
             },
         },
     },
