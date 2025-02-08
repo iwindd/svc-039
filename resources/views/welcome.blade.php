@@ -8,7 +8,7 @@
             </div>
         </div>
 
-        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8 grid grid-cols-4 gap-5">
+        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8 px-2 grid lg:grid-cols-4 md:grid-cols-1 gap-5">
             <a href="{{ route('executives') }}">
                 <div
                     class="bg-white overflow-hidden shadow-sm sm:rounded-lg hover:bg-gray-100 cursor-pointer border-b-4 border-primary-300 hover:translate-y-1 transform transition duration-300">
