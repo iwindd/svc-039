@@ -28,6 +28,6 @@ class PageController extends Controller
 
     public function majors()
     {
-        return view("welcome");
+        return view("pages.majors");
     }
 }
