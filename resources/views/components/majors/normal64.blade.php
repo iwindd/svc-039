@@ -44,7 +44,7 @@
     <header class="border-b pb-1 flex items-center space-x-2">
         <h2 class="font-bold text-xl">{{ __('majors.normal64') }}</h2>
     </header>
-    <article class="py-2 grid grid-cols-2 gap-6">
+    <article class="py-2 grid grid-cols-1 sm:grid-cols-2 gap-6">
         @foreach ($data as $type => $majors)
             <section class="space-y-2">
                 <header class="bg-primary-300 w-full p-2 rounded">
