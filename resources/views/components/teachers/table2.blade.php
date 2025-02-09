@@ -30,7 +30,7 @@
     <header class="border-b pb-1 flex items-center space-x-2">
         <h2 class="font-bold text-xl">{{ __('teachers.table2.caption') }}</h2>
     </header>
-    <article class="py-2">
+    <article class="py-2 overflow-y-auto">
         <table class="table-custom">
             <thead>
                 <tr>
